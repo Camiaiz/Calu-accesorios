@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" type="text/css" />
+    <title>Calu Accesorios</title>
+</head>
+
+<body class="bodyContacto">
+    <header>
+        <div class="logo">LOGO</div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="./productos.html">PRODUCTOS</a></li>
+                    <li><a href="./sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="./ubicacion.html">UBICACIÓN</a></li>
+                    <li><a href="./contacto.html">CONTACTO</a></li>
+                    <li><a href="https://www.instagram.com/accesorioscalu/">INSTAGRAM</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mainContacto">
+        <h1 id="titulo">CONTACTANOS</h1>
+        <fieldset id="field">
+        <div class="ingreseNombre">INGRESE SU NOMBRE:</div>
+        <div>
+            <input type="text" placeholder="Nombre y apellido" id="nombre" required>
+        </div>
+        <div class="ingreseMail">INGRESE SU MAIL:</div>
+        <div>
+            <input type="text" placeholder="aaa@gmail.com" id="email">
+        </div>
+        <div class="ingreseConsulta">CONSULTA:</div>
+        <div>
+            <textarea placeholder="Escribinos tu consulta" id="consulta"></textarea>
+        </div>
+        <div class="nuevoLanzamiento">¿TE GUSTÓ NUESTRO NUEVO LANZAMIENTO?</div>
+        <span id="seleccionSi">Si</span>
+        <input type="radio" name="lanzamiento" id="si" value="Si">
+        <span id="seleccionNo">No</span>
+        <input type="radio" name="lanzamiento" id="no" value="No">
+
+        <div class="eleccionMaterial">¿DE QUÉ MATERIAL PREFERÍS TU ACCESORIO?</div>
+        <select id="material">
+            <option value="Plata">Plata</option>
+            <option value="Oro">Oro</option>
+            <option value="Acero quirúrgico">Acero quirúrgico</option>
+        </select>
+        <div class="recibiNovedades">¿QUERÉS RECIBIR NOVEDADES SOBRE NOSOTROS?</div>
+        <div>
+            <input type="checkbox" name="acepta" value="1" id="enterate">
+        </div>
+
+        <input type="submit" value="ENVIAR" id="enviar">
+        <input type="reset" value="RESETAR" id="resetear">
+
+        </form>
+        </fieldset>
+    </main>
+
+    <footer>
+        <div class="logoFooter">LOGO</div>
+        <div class="contactoFooter">CONTACTO</div>
+        <div class="redesFooter">RRSS</div>
+    </footer>
+</body>
+
+</html>
