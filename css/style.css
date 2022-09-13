@@ -8,7 +8,7 @@
 
 .Grid {
     display: grid;
-    width: 100vw;
+    width: auto;
     height: 100vh;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
@@ -31,6 +31,7 @@
 .MainIndex {
     grid-area: main;
     height: 65vh;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -158,21 +159,21 @@
 
     .EstiloImagenesUno {
         height: 60vh;
-        width: 60vw;
+        width: 60%;
         border: 2px solid black;
         margin: 0 0 15px 0;
     }
 
     .EstiloImagenesDos {
         height: 60vh;
-        width: 60vw;
+        width: 60%;
         border: 2px solid black;
         margin: 0 0 15px 0;
     }
 
     .EstiloImagenesTres {
         height: 60vh;
-        width: 60vw;
+        width: 60%;
         border: 2px solid black;
     }
 
@@ -191,15 +192,15 @@
 @media only screen and (max-width: 768px) {
 
     .EstiloImagenesUno {
-        width: 80vw;
+        width: 80%;
     }
 
     .EstiloImagenesDos {
-        width: 80vw;
+        width: 80%;
     }
 
     .EstiloImagenesTres {
-        width: 80vw;
+        width: 80%;
     }
 }
 
@@ -243,17 +244,17 @@
     }
 
     .EstiloImagenesUno {
-        width: 90vw;
+        width: 90%;
         height: 40vh;
     }
 
     .EstiloImagenesDos {
-        width: 90vw;
+        width: 90%;
         height: 40vh;
     }
 
     .EstiloImagenesTres {
-        width: 90vw;
+        width: 90%;
         height: 40vh;
     }
 
@@ -372,7 +373,8 @@
 
 .MainSobreCalu div p {
     font-size: 20px;
-    width: 50vw;
+    width: 70%;
+    height: 50%;
     text-align: center;
 }
 
