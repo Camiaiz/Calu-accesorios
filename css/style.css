@@ -123,161 +123,12 @@
     height: 40px;
 }
 
-/* MEDIAS QUERIES INDEX ------------- */
-
-@media only screen and (max-width: 1200px) {
-
-    .Grid {
-        display: grid;
-        height: 245vh;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: "header"
-            "main"
-            "footer";
-    }
-
-    .HeaderIndex {
-        display: flex;
-        flex-direction: column;
-        height: 40vh;
-        border: 1px solid black;
-    }
-
-    .Nav .NavUl li {
-        padding: 50px 40px 50px 40px;
-        margin: 0;
-    }
-
-    .MainIndex {
-        height: 190vh;
-    }
-
-    .EstiloImagenes {
-        flex-direction: column;
-    }
-
-    .EstiloImagenesUno {
-        height: 60vh;
-        width: 60%;
-        border: 2px solid black;
-        margin: 0 0 15px 0;
-    }
-
-    .EstiloImagenesDos {
-        height: 60vh;
-        width: 60%;
-        border: 2px solid black;
-        margin: 0 0 15px 0;
-    }
-
-    .EstiloImagenesTres {
-        height: 60vh;
-        width: 60%;
-        border: 2px solid black;
-    }
-
-    .LogoFooter {
-        width: 11rem;
-        height: 9rem;
-    }
-
-    .FooterIndex {
-        border: 1px solid black;
-        height: 20vh;
-
-    }
-}
-
-@media only screen and (max-width: 768px) {
-
-    .EstiloImagenesUno {
-        width: 80%;
-    }
-
-    .EstiloImagenesDos {
-        width: 80%;
-    }
-
-    .EstiloImagenesTres {
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-
-    .Grid {
-        height: 220vh;
-    }
-
-    .HeaderIndex {
-        display: flex;
-        flex-direction: column;
-        height: 50vh;
-        border: 1px solid black;
-    }
-
-    .LogoHeader {
-        width: 8rem;
-        height: 6rem;
-    }
-
-    .MainIndex {
-        height: 130vh;
-    }
-
-    .Nav .NavUl {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .Nav .NavUl li {
-        padding: 10px;
-        margin: 10px;
-        background-color: rgb(201, 201, 201);
-        width: 450px;
-    }
-
-    .Nav .NavUl li a {
-        font-size: 18px;
-    }
-
-    .EstiloImagenesUno {
-        width: 90%;
-        height: 40vh;
-    }
-
-    .EstiloImagenesDos {
-        width: 90%;
-        height: 40vh;
-    }
-
-    .EstiloImagenesTres {
-        width: 90%;
-        height: 40vh;
-    }
-
-    .FooterIndex {
-        display: flex;
-        flex-direction: column;
-        height: 40vh;
-        border: 1px solid black;
-    }
-
-
-    .LogoFooter {
-        width: 8rem;
-        height: 6rem;
-    }
-}
-
 
 /* PÁGINA SOBRE CALU -------------- */
 /*LAYOUT CON GRID SOBRE CALU*/
 
 .GridSobreCalu {
-    height: 100vh;
+    height: 120vh;
     width: auto;
     display: grid;
     grid-template-columns: auto auto;
@@ -295,12 +146,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
 }
 
 .MainSobreCalu {
     grid-area: main;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,7 +159,7 @@
 
 .ImagenAside {
     grid-area: aside;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,7 +167,7 @@
 
 .FooterSobreCalu {
     grid-area: footer;
-    height: 20vh;
+    height: 25vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -325,13 +176,13 @@
 /* LOGOS SOBRE CALU-------------- */
 
 .LogoHeaderSobreCalu {
-    width: 12rem;
-    height: 10rem;
+    width: 10rem;
+    height: 8rem;
 }
 
 .LogoFooterSobreCalu {
-    width: 12rem;
-    height: 10rem;
+    width: 10rem;
+    height: 8rem;
 }
 
 /* NAV SOBRE CALU-------------- */
@@ -373,7 +224,7 @@
 
 .MainSobreCalu div p {
     font-size: 20px;
-    width: 70%;
+    width: 90%;
     height: 50%;
     text-align: center;
 }
@@ -404,13 +255,88 @@
     height: 40px;
 }
 
-/* MEDIAS QUERIES SOBRE CALU---------- */
+/* MEDIAS QUERIES ---------- */
 
 @media only screen and (max-width: 1200px) {
 
+    /* ------------ MEDIDAS INDEX 1200px --------------- */
+
+    .Grid {
+        display: grid;
+        height: 350vh;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "header"
+            "main"
+            "footer";
+    }
+
+    .HeaderIndex {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        border: 1px solid black;
+    }
+
+    .Nav .NavUl {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 700px;
+    }
+
+    .Nav .NavUl li {
+        padding: 15px 0 15px 0;
+        margin: 10px 0 10px 0;
+        background-color: rgb(201, 201, 201);
+        width: 100%;
+    }
+
+    .MainIndex {
+        height: 220vh;
+    }
+
+    .EstiloImagenes {
+        flex-direction: column;
+    }
+
+    .EstiloImagenesUno {
+        height: 70vh;
+        width: 60%;
+        border: 2px solid black;
+        margin: 0 0 15px 0;
+    }
+
+    .EstiloImagenesDos {
+        height: 70vh;
+        width: 60%;
+        border: 2px solid black;
+        margin: 0 0 15px 0;
+    }
+
+    .EstiloImagenesTres {
+        height: 70vh;
+        width: 60%;
+        border: 2px solid black;
+    }
+
+    .LogoFooter {
+        width: 8rem;
+        height: 6rem;
+    }
+
+    .FooterIndex {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        border: 1px solid black;
+    }
+
+    /* ------------ MEDIDAS SOBRE CALU 1200px ----------- */
+
     .GridSobreCalu {
         display: grid;
-        height: 160vh;
+        height: 270vh;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto;
         grid-template-areas: "header"
@@ -422,32 +348,42 @@
     .HeaderSobreCalu {
         display: flex;
         flex-direction: column;
-        height: 40vh;
-        width: 100%;
-    }
-
-    .NavSobreCalu .NavUlSobreCalu li {
-        padding: 50px 40px 50px 40px;
-        margin: 0;
-    }
-    
-    .ImagenAside {
         height: 80vh;
         width: 100%;
     }
 
+    .NavSobreCalu .NavUlSobreCalu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 700px;
+    }
+
+    .NavSobreCalu .NavUlSobreCalu li {
+        padding: 15px 0 15px 0;
+        margin: 10px 0 10px 0;
+        background-color: rgb(201, 201, 201);
+        width: 100%;
+    }
+    
+    .ImagenAside {
+        height: 100vh;
+        width: 100%;
+    }
+
     .ImagenAside img {
-        width: 80%;
+        width: 70%;
+        height: 90vh;
         border: 2px solid black;
     }
 
     .MainSobreCalu {
-        height: 40vh;
+        height: 60vh;
         width: 100%;
     }
 
     .MainSobreCalu div p {
-        width: 80%;
+        width: 70%;
     }
 
     .MainSobreCalu,
@@ -459,36 +395,61 @@
         width: 11rem;
         height: 9rem;
     }
-}
 
-@media only screen and (max-width: 768px) {
-
-    .GridSobreCalu {
-        height: 205vh;
-    }
-
-    .HeaderSobreCalu {
+    .FooterSobreCalu {
         display: flex;
         flex-direction: column;
         height: 50vh;
         border: 1px solid black;
     }
+}
 
-    .NavSobreCalu .NavUlSobreCalu {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+
+    /* ------------ MEDIDAS INDEX 768px --------------- */
+
+    .Grid {
+        height: 385vh;
+    }
+
+    .LogoHeader {
+        width: 9rem;
+        height: 7rem;
+    }
+
+    .Nav .NavUl li {
+        padding: 10px 0 10px 0;
+        margin: 5px 0 5px 0;
+    }
+
+    .MainIndex {
+        height: 255vh;
+    }
+
+    .EstiloImagenesUno {
+        width: 80%;
+        height: 80vh;
+    }
+
+    .EstiloImagenesDos {
+        width: 80%;
+        height: 80vh;
+    }
+
+    .EstiloImagenesTres {
+        width: 80%;
+        height: 80vh;
+    }
+
+    /* ------------ MEDIDAS SOBRE CALU 768px ----------- */
+
+    .GridSobreCalu {
+        height: 290vh;
     }
 
     .NavSobreCalu .NavUlSobreCalu li {
-        padding: 10px;
-        margin: 10px;
-        background-color: rgb(201, 201, 201);
-        width: 700px;
-    }
-
-    .NavSobreCalu .NavUlSobreCalu li a {
-        font-size: 20px;
+        padding: 10px 0 10px 0;
+        margin: 5px 0 5px 0;
     }
 
     .LogoHeaderSobreCalu {
@@ -496,29 +457,22 @@
         height: 6rem;
     }
 
-    .MainSobreCalu {
-        height: 60vh;
-    }
-
-    .MainSobreCalu div p {
-        width: 90%;
-        font-size: 20px;
-    }
-
     .ImagenAside {
-        height: 55vh;
+        height: 100vh;
     }
 
     .ImagenAside img {
         width: 80%;
-        height: 50vh;
+        height: 95vh;
     }
 
-    .FooterSobreCalu {
-        display: flex;
-        flex-direction: column;
-        height: 40vh;
-        border: 1px solid black;
+    .MainSobreCalu {
+        height: 85vh;
+    }
+
+    .MainSobreCalu div p {
+        height: 80vh;
+        width: 90%;
     }
 
     .LogoFooterSobreCalu {
@@ -528,36 +482,82 @@
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width:768px) {
 
-    .GridSobreCalu {
-        height: 210vh;
+    /* ------------ MEDIDAS INDEX 480px--------------- */
+
+    .Grid {
+        height: 320vh;
     }
 
-    .NavSobreCalu .NavUlSobreCalu li {
+    .LogoHeader {
+        width: 9rem;
+        height: 7rem;
+    }
+
+    .Nav .NavUl {
         width: 450px;
     }
 
-    .NavSobreCalu .NavUlSobreCalu li a {
-        font-size: 18px;
+    .Nav .NavUl li {
+        padding: 10px 0 10px 0;
+        width: 100%;
+    }
+
+    .Nav .NavUl li a {
+        font-size: 20px;
+    }
+
+    .MainIndex {
+        height: 190vh;
+    }
+
+    .EstiloImagenesUno {
+        width: 90%;
+        height: 60vh;
+    }
+
+    .EstiloImagenesDos {
+        width: 90%;
+        height: 60vh;
+    }
+
+    .EstiloImagenesTres {
+        width: 90%;
+        height: 60vh;
+    }
+
+    /* ------------ MEDIDAS SOBRE CALU 480px----------- */
+
+    .GridSobreCalu {
+        height: 325vh;
+    }
+
+    .NavSobreCalu .NavUlSobreCalu {
+        width: 450px;
+    }
+
+    .NavSobreCalu .NavUlSobreCalu li {
+        padding: 10px 0 10px 0;
+        width: 100%;
     }
 
     .ImagenAside {
-        height: 35vh;
+        height: 70vh;
     }
 
     .ImagenAside img {
-        width: 80%;
-        height: 30vh;
+        width: 90%;
+        height: 65vh;
     }
 
     .MainSobreCalu {
-        height: 85vh;
+        height: 125vh;
     }
 
     .MainSobreCalu div p {
-        width: 90%;
-        height: 80vh;
+        height: 125vh;
+        width: 95%;
     }
 
 }
