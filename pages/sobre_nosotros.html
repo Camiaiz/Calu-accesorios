@@ -6,29 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" type="text/css" />
     <title>Calu Accesorios</title>
 </head>
 
-<body class="GridSobreCalu">
-    <header class="HeaderSobreCalu">
-        <img src="../assets/images/Logo.jpg" alt="el logo de calu accesorios" class="LogoHeaderSobreCalu">
+<body>
+    <header class="container-fluid">
+        <div class="row text-center" id="header">
+            <nav class="col navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <img src="../assets/images/Logo.jpg" alt="LOGO" id="logoHeaderSobreCalu">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  active" href="./sobre_nosotros.html">SOBRE CALU</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ubicacion.html">SUCURSALES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-        <nav class="NavSobreCalu">
-            <ul class="NavUlSobreCalu">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./productos.html">PRODUCTOS</a></li>
-                <li><a href="./sobre_nosotros.html">SOBRE CALU</a></li>
-                <li><a href="./ubicacion.html">SUCURSALES</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main class="MainSobreCalu">
-        <div>
-            <p class="animate__animated animate__bounceInRight">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque asperiores doloribus rerum id voluptas
+    <main class="container-fluid">
+
+        <div class="row" id="main">
+            <section
+                class="col-6 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center"
+                id="section-cards">
+                <div class="row">
+                    <img src="../assets/images/Collar Suecia.JPG" alt="collar suecia" id="imgSection">
+                </div>
+            </section>
+            <section
+            class="col-6 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-center align-items-center"
+            id="section-info">
+            <h1>ACERCA DE CALU ACCESORIOS</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque asperiores doloribus rerum id voluptas
                 eos, sapiente ut, fuga sint dicta tempora! Repellat aliquam possimus voluptatibus ab suscipit culpa, quo
                 fuga omnis consectetur quam odit rerum ducimus aspernatur! Cupiditate in dolorem, nostrum nisi numquam
                 incidunt vel provident voluptas id, eos ex dolorum non aliquid facilis rem impedit beatae aut cumque
@@ -43,26 +77,28 @@
                 neque odio et praesentium optio repellendus amet quisquam quasi aliquid modi enim, nesciunt est,
                 architecto fuga possimus tempora quae? Autem magnam consectetur quibusdam soluta magni officia est quis,
                 hic dolorem architecto voluptate impedit, placeat laudantium iste inventore.</p>
-        </div>
 
+        </section>
+        </div>
     </main>
 
-    <aside class="ImagenAside">
-        <img src="../assets/images/Collar Suecia.JPG" alt="collar suecia">
-    </aside>
 
-    <footer class="FooterSobreCalu">
-        <div>
-            <img src="../assets/images/Logo.jpg" alt="el logo de calu accesorios" class="LogoFooterSobreCalu">
-        </div>
-        <div class="ContactoSobreCalu"> <a href="../pages/contacto.html">CONTACTO</a></div>
-        <div class="EstiloRedesSobreCalu">
-            <a href="https://www.instagram.com/accesorioscalu/"><img src="../assets/images/instagram.png"
-                    alt="logo de instagram" class="EstiloRedesLogosSobreCalu"></a>
-            <a href="https://es-la.facebook.com/accesorioscalu9/"><img src="../assets/images/facebook.png"
-                    alt="logo de facebook" class="EstiloRedesLogosSobreCalu"></a>
+    <footer class="container-fluid">
+        <div class="row" id="footer">
+            <div>
+            <img src="../assets/images/Logo.jpg" alt="el logo de calu accesorios" id="LogoFooterSobreCalu">
+            <a href="https://www.instagram.com/accesorioscalu/"><img src="../assets/images/instagram.png" alt="logo de instagram"></a>
+            <a href="https://es-la.facebook.com/accesorioscalu9/"><img src="../assets/images/facebook.png" alt="logo de facebook"></a>
+            </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
