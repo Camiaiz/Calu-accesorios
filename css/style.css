@@ -6,19 +6,22 @@
 }
 
 #headerIndex {
-    height: 15vh;
+    height: 15%;
 }
 
-#navBar {
-    z-index: 100;
+#logo {
+    height: 7rem;
+    width: 10rem;
 }
 
-#logoHeaderIndex {
-    height: 8rem;
-    width: 11rem;
+#mainIndex {
+    height: 70%;
+    width: 100%;
 }
 
-#primeraImagen, #segundaImagen, #terceraImagen {
+#primeraImagen,
+#segundaImagen,
+#terceraImagen {
     padding-right: 0;
     margin-bottom: 10px;
 }
@@ -43,12 +46,15 @@
 }
 
 #footerIndex {
-    height: 15vh;
+    height: 15%;
 }
 
-#logoFooterIndex {
-    height: 8rem;
-    width: 11rem;
+Nav Ul li:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+Nav Ul li a:hover {
+    color: white !important;
 }
 
 /* PÁGINA SOBRE CALU --------------------------------------------------- */
@@ -58,21 +64,103 @@
     height: 100%;
 }
 
-
 #headerSobreCalu {
-    height: 15vh;
+    height: 15%;
 }
 
-#logoHeaderSobreCalu {
-    height: 8rem;
-    width: 11rem;
+#mainSobreCalu {
+    height: 70%;
+    width: 100%;
 }
 
 #footerSobreCalu {
-    height: 15vh;
+    height: 15%;
 }
 
-#logoFooterSobreCalu {
-    height: 8rem;
-    width: 11rem;
+/* PÁGINA PRODUCTOS --------------------------------------------- */
+
+#bodyProductos {
+    width: 100%;
+    height: 100%;
 }
+
+
+#headerProductos {
+    height: 15%;
+}
+
+#mainProductos {
+    height: 70%;
+    width: 100%;
+}
+
+#footerProductos {
+    height: 15%;
+}
+
+#titulo {
+    background-color: rgb(201, 201, 201);
+}
+
+/* PÁGINA UBICACIÓN --------------------------------------------- */
+
+#bodySucursales {
+    width: 100%;
+    height: 100%;
+}
+
+
+#headerSucursales {
+    height: 15%;
+}
+
+#mainSucursales {
+    height: 70%;
+    width: 100%;
+}
+
+#footerSucursales {
+    height: 15%;
+}
+
+/* PÁGINA UBICACIÓN --------------------------------------------- */
+
+#bodyContacto {
+    width: 100%;
+    height: 100%;
+}
+
+
+#headerContacto {
+    height: 15%;
+}
+
+#mainContacto {
+    height: 70vh;
+    width: 100%;
+}
+
+#footerContacto {
+    height: 15%;
+}
+
+/* MEDIA QUERIES -------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* PÁGINA INDEX -------- */
+
+    #carousel {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* PÁGINA INDEX -------- */
+
+    #carousel {
+        display: none;
+    }
+}
+
