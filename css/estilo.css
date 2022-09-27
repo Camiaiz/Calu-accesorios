@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+  height: 100%;
+  width: 100%;
+}
+body header {
+  height: 15%;
+}
+body header #logoHeader {
+  height: 7rem;
+  width: 10rem;
+}
+body header nav ul li:hover {
+  background-color: rgb(201, 201, 201);
+}
+body header nav ul li a:hover {
+  color: white;
+}
+
+#mainIndex {
+  height: 70%;
+  width: 100%;
+}
+#mainIndex #estiloImagenes {
+  padding-right: 0;
+}
+#mainIndex #estiloImagenes #imagen {
+  padding-right: 0;
+  margin-bottom: 10px;
+}
+#mainIndex #estiloImagenes #imagen #estiloImagenesUno {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  height: 15%;
+}
+footer #logoFooter {
+  height: 7rem;
+  width: 10rem;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* PÁGINA INDEX -------- */
+  #carousel {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  /* PÁGINA INDEX -------- */
+  #carousel {
+    display: none;
+  }
+}/*# sourceMappingURL=estilo.css.map */
