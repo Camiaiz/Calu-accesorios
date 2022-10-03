@@ -9,9 +9,13 @@
             padding-right: 0;
             margin-bottom: 10px;
 
+            @mixin sizes ($ancho, $alto) {
+                width: $ancho;
+                height: $alto;
+            }
+
             #estiloImagenesUno {
-                height: 100%;
-                width: 100%;
+                @include sizes (100%, 100%)
             }
 
         }
@@ -20,31 +24,4 @@
     }
 
 
-}
-
-footer {
-    height: 15%;
-
-    #logoFooter {
-        height: 7rem;
-        width: 10rem;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-    /* PÁGINA INDEX -------- */
-
-    #carousel {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-
-    /* PÁGINA INDEX -------- */
-
-    #carousel {
-        display: none;
-    }
 }

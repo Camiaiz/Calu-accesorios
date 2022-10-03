@@ -1,2 +1,6 @@
-$mainColor: rgb(201, 201, 201);
-$colorA: white;
+$color: white;
+
+$colors: (
+    "white": white,
+    "main": rgb(201, 201, 201)
+);

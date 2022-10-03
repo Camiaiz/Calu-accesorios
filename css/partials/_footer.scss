@@ -1,0 +1,17 @@
+footer {
+    height: 15%;
+
+    #logoFooter {
+        height: 7rem;
+        width: 10rem;
+    }
+
+    %iconitos {
+      margin-right: 10px;
+  }
+
+    #Instagram, #Facebook {
+    @extend %iconitos;
+  }
+
+}

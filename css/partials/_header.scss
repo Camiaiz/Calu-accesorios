@@ -16,12 +16,12 @@ body {
 
                 li {
                     &:hover {
-                        background-color: $mainColor;
+                        background-color: map-get($colors, main);
                     }
 
                     a {
                         &:hover {
-                            color: $colorA;
+                            color: $color !important;
                         }
                     }
                 }
