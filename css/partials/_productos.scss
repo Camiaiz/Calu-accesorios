@@ -3,6 +3,6 @@
     width: 100%;
 
     #titulo {
-        background-color: rgb(201, 201, 201);
+        background-color: map-get($colors, main);
     }
 }
