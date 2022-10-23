@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+  height: 100%;
+  width: 100%;
+}
+body header {
+  height: 15%;
+}
+body header #logoHeader {
+  height: 7rem;
+  width: 10rem;
+}
+body header nav ul li:hover {
+  background-color: rgb(201, 201, 201);
+}
+body header nav ul li a:hover {
+  color: white !important;
+}
+
+#mainIndex {
+  height: 70%;
+  width: 100%;
+}
+#mainIndex #estiloImagenes {
+  padding-right: 0;
+}
+#mainIndex #estiloImagenes #imagen {
+  padding-right: 0;
+  margin-bottom: 10px;
+}
+#mainIndex #estiloImagenes #imagen #estiloImagenesUno {
+  width: 100%;
+  height: 100%;
+}
+
+#mainProductos {
+  height: 70%;
+  width: 100%;
+}
+#mainProductos #titulo {
+  background-color: rgba(201, 201, 201, 0.349);
+}
+
+#mainSobreCalu {
+  height: 70%;
+  width: 100%;
+}
+#mainSobreCalu #tituloSobreCalu {
+  background-color: rgba(201, 201, 201, 0.349);
+}
+
+#mainSucursales {
+  height: 70%;
+  width: 100%;
+}
+#mainSucursales #boton {
+  color: black !important;
+}
+
+#mainContacto {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  height: 15%;
+}
+footer #logoFooter {
+  height: 7rem;
+  width: 10rem;
+}
+footer #Instagram, footer #Facebook {
+  margin-right: 10px;
+}
+@media (min-width: 1400px) {
+  #imgSection {
+    height: 52rem;
+  }
+}
+@media (max-width: 991px) {
+  /* PÁGINA INDEX -------- */
+  #carousel {
+    display: none;
+  }
+}/*# sourceMappingURL=estilo.css.map */

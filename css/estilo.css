@@ -38,17 +38,23 @@ body header nav ul li a:hover {
   width: 100%;
 }
 #mainProductos #titulo {
-  background-color: rgb(201, 201, 201);
+  background-color: rgba(201, 201, 201, 0.349);
 }
 
 #mainSobreCalu {
   height: 70%;
   width: 100%;
 }
+#mainSobreCalu #tituloSobreCalu {
+  background-color: rgba(201, 201, 201, 0.349);
+}
 
 #mainSucursales {
   height: 70%;
   width: 100%;
+}
+#mainSucursales #boton {
+  color: black !important;
 }
 
 #mainContacto {
@@ -66,13 +72,12 @@ footer #logoFooter {
 footer #Instagram, footer #Facebook {
   margin-right: 10px;
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
-  /* PÁGINA INDEX -------- */
-  #carousel {
-    display: none;
+@media (min-width: 1400px) {
+  #imgSection {
+    height: 52rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   /* PÁGINA INDEX -------- */
   #carousel {
     display: none;

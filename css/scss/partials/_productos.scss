@@ -1,0 +1,8 @@
+#mainProductos {
+    height: 70%;
+    width: 100%;
+
+    #titulo {
+        background-color: map-get($colors, gris);
+    }
+}
